@@ -281,6 +281,23 @@ button{
     text-align: right;
 }
 
+.home__subtitle{
+    font-size: var(--h3-font-size);
+    text-transform: uppercase;
+    margin-bottom: var(--mb-1);
+}
+
+.home__title{
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-black);
+    line-height: 109%;
+    margin-bottom: var(--mb-1);
+}
+
+.home__buttons{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* ------- Swiper class -------- */
 
