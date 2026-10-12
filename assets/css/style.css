@@ -294,16 +294,71 @@ button{
     margin-bottom: var(--mb-1);
 }
 
+.home__description{
+    margin-bottom: var(--mb-1);
+}
+
+
 .home__buttons{
     display: flex;
     justify-content: space-between;
 }
 
 /* ------- Swiper class -------- */
+.swiper-pagination{
+    position: initial;
+    margin-top: var(--mb-1);
+}
+
+.swiper-pagination-bullet{
+    width: 5px;
+    height: 5px;
+    background-color: var(--title-color);
+    opacity: 1;
+}
 
 
 /* ----------------------------- BOUTON ----------------------------------*/
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: var(--title-color);
+    padding: 1rem 1.75rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+    transition: .3s;
+}
 
+.button:hover{
+    background-color: var(--first-color-alt);
+}
+
+
+.button__icon{
+    font-size: 1.25rem;
+}
+
+
+.button--ghost{
+    border: 2px solid;
+    background-color: transparent;
+    border-radius: 3rem;
+    padding: .75rem 1.5rem;
+}
+
+.button--ghost:hover{
+    background: none;
+}
+
+.button-link{
+    color: var(--title-color);
+}
+
+.button--flex{
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+}
 /* ---------------------------- CATEGORIE -------------------------------*/
 
 /* ------------------------------ ABOUT ---------------------------------*/
