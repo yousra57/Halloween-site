@@ -228,6 +228,11 @@ button{
 
 
 /* --- Changer le background du header ---*/
+.scroll-header{
+    background: var(--container-color);
+}
+
+
 
 /* ---Activer les liens--- */
 
@@ -392,6 +397,10 @@ button{
     transform: translateY(-.5rem);
 }
 /* ------------------------------ ABOUT ---------------------------------*/
+
+
+
+
 
 /* --------------------------- TRICK OR TREAT ----------------------------*/
 
